@@ -10,15 +10,15 @@ int botoes(){
   textSize(22);
   fill(isClicked1 ? color(255, 0, 0) : color(0, 0, 100)); // Muda a cor do botão dependendo se está clicado ou não
   ellipse(30, 430, 35, 35);
-  text("150K V ------- RM=280M Ω", 60, 440);
+  text("150 KV ------- RM=280 MΩ", 60, 440);
   
   fill(isClicked2 ? color(255, 0, 0) : color(0, 0, 100)); // Muda a cor do botão dependendo se está clicado ou não
   ellipse(30, 480, 35, 35);
-  text("300K V ---- 2*RM=560M Ω", 60, 490);
+  text("300 kV ---- 2*RM=560 MΩ", 60, 490);
   
   fill(isClicked3 ? color(255, 0, 0) : color(0, 0, 100)); // Muda a cor do botão dependendo se está clicado ou não
   ellipse(30, 530, 35, 35);
-  text("450K V ---- 3*RM=840M Ω", 60, 540);
+  text("450 kV ---- 3*RM=840 MΩ", 60, 540);
   
  
   
