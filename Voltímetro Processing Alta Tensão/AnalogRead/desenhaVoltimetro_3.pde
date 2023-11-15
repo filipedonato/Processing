@@ -6,7 +6,7 @@ void desenhaVoltimetro_3() {
   textSize(22);
   text("0      45k      85k     140k    200k     265k     325k     380k     450k", 50, 245);
   textSize(30);
-  text("Tensão = " + nf(valor_convertido, 0, 2) + " KV", 200, 320);
+  text("Tensão = " + nf(valor_convertido, 0, 2) + " kV", 200, 320);
   fill(0,200,200,100); //cor rgb e transparencia
   rect(40, 165, 540, 180, 10); //Retangulo com posição, tamanho e borda
   
